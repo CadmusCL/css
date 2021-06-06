@@ -1,0 +1,195 @@
+/* HIGHWAY COLORS */
+.w3-highway-brown{color:#fff;background-color:#633517}
+.w3-highway-red{color:#fff;background-color:#a6001a}
+.w3-highway-orange{color:#fff;background-color:#e06000}
+.w3-highway-schoolbus{color:#fff;background-color:#ee9600}
+.w3-highway-yellow{color:#fff;background-color:#ffab00}
+.w3-highway-green{color:#fff;background-color:#004d33}
+.w3-highway-blue{color:#fff;background-color:#00477e}
+/* END HIGHWAY COLORS */
+
+/* WhatsApp/Signal button */
+    .btn-whatsapp {
+       background-color:green;
+       display:block;
+       width:64px;
+       height:64px;
+       color:white;
+       position: fixed;
+       right:20px;
+       bottom:20px;
+       border-radius:50%;
+       text-align:center;
+       z-index:999;
+       -webkit-animation: smooth 5s ease 0s;
+     }
+
+     @-webkit-keyframes smooth {
+       0% {
+          opacity: 0;
+          background-color:transparent;
+          color:grey;
+        }
+       25% {
+          opacity: 0.5;
+          background-color:transparent;
+          color:grey;
+        }
+       50% {
+          opacity: 0.5;
+          background-color:transparent;
+          color:grey;
+        }
+       75% {
+          opacity: 0.5;
+          background-color:transparent;
+          color:grey;
+        }
+       100% {
+         opacity: 1;
+       }
+     }
+
+    .btn-whatsapp:hover {
+      opacity: 0.9;
+    }
+
+    .btn-signal {
+       background-color:#3C7BFF;
+       display:block;
+       width:64px;
+       height:64px;
+       color:#D6D6D6;
+       position: fixed;
+       right:20px;
+       bottom:89px;
+       border-radius:50%;
+       line-height:80px;
+       text-align:center;
+       z-index:999;
+       -webkit-animation: smooth 5s ease;
+     }
+
+    .btn-signal:hover {
+      opacity: 0.9;
+    }
+
+  .cm-vertical {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    height: 64px;
+    text-decoration: none;
+    }
+/* END WhatsApp/Signal button */
+
+/* CM Style */
+
+    .cm-fs110 {font-size:110%;}
+    .cm-fs120 {font-size:120%;}
+    .cm-fs130 {font-size:130%;}
+    .cm-fs140 {font-size:140%;}
+    .cm-fs150 {font-size:150%;}
+
+    .cm-br200 {border-radius: 20px;}
+
+    .cm-ls010 {letter-spacing:0.1ex;}
+    .cm-ls014 {letter-spacing:0.14ex;}
+    .cm-ls020 {letter-spacing:0.2ex;}
+    .cm-ls030 {letter-spacing:0.3ex;}
+    .cm-ls040 {letter-spacing:0.4ex;}
+    .cm-ls050 {letter-spacing:0.5ex;}
+
+    .cm-asc {font-variant:all-small-caps;}
+    .cm-sc {font-variant:small-caps;}
+    .cm-uc {text-transform: uppercase;}
+
+    .cm-text {
+      font-variant:none;
+      font-size:110%;
+    }
+    .cm-h3 {
+      font-variant:all-small-caps;
+      font-size:210%;
+    }
+    .cm-h4 {
+      font-variant:all-small-caps;
+      font-size:160%;
+    }
+    .cm-red {color:red}
+    .cm-blue {color:blue}
+    .cm-lblue {color:lightblue}
+    .cm-gold {color:gold}
+    .cm-black {color:black}
+
+    .cm-no-a {text-decoration:none;}
+    .cm-u {border-bottom: 0.2ex solid currentColor;}
+        .cm-u:hover {border-bottom:0.4ex solid currentColor;}
+  
+    @keyframes cm-u2
+    {
+        0%{border-bottom: 0.2ex solid currentColor;}
+       50%{border-bottom: 0.3ex solid currentColor;}
+      100%{border-bottom: 0.4ex solid currentColor;}
+    }
+   
+    .cm-u2:hover{animation: cm-u2 .1s;}
+
+/* Change size effect */
+    .imgplus:hover {
+        color:red;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -ms-transform: scale(1.0);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        transform: scale(1.0);
+        transform: scale(1.3);
+        transition: transform 1s;
+    }
+
+    @keyframes heartbeat
+    {
+        0%{transform: scale( .75 );}
+       20%{transform: scale( 1 );}
+       40%{transform: scale( .75 );}
+       60%{transform: scale( 1 );}
+       80%{transform: scale( .75 );}
+      100%{transform: scale( .75 );}
+    }
+
+    .heartefect{animation: heartbeat 3s infinite;}
+
+    .slow-spin
+    {
+        -webkit-animation: fa-spin 6s infinite linear;
+        animation: fa-spin 6s infinite linear;
+    }
+
+    @keyframes moreinfo
+    {
+        from {top: 0px;}
+        to {top: 15px;}
+    }
+
+    .moreinfo {animation: moreinfo 1s infinite; position: relative;}
+
+    #myBtn
+    {
+        display: none;
+        position: fixed;
+        bottom: 150px;
+        right: 20px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: grey;
+        opacity:50%;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    #myBtn:hover{background-color: #555;}
